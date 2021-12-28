@@ -2,7 +2,7 @@
 Project to create my own version of standard data structures in C++, with added functionality. Includes an interface that allows for a better understanding of the various structures as well.
 
 Structures Included:
-- Arrays
+- Vectors
 - Stacks
 - Queues
 - Linked Lists
