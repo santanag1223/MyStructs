@@ -1,8 +1,10 @@
-# Better Structures
+# My Structs
+
+## Description:
 Project to create my own version of standard data structures in C++, with added functionality. Includes an interface that allows for a better understanding of the various structures as well.
 
 Structures Included:
-- Arrays
+- Vectors
 - Stacks
 - Queues
 - Linked Lists
@@ -11,5 +13,12 @@ Structures Included:
 - Binary Search Trees
 - Graphs
 
+## How to run: 
 
-To run the program, the user should input: `user$: g++ BetterStructs.cpp`
+Terminal input to compile C++ files into a executable: 
+
+`user$: g++ MyStructs.cpp -o <Output Filename>`
+
+Terminal input to run the program: 
+
+`user$: ./<Output Filename>`
