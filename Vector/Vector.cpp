@@ -94,21 +94,23 @@ template <class T>
     }
 
 template <class T> 
-    std::ostream& operator <<(std::ostream& out, const Vector<T>& v) {    
-    if (v.is_empty()){
-        out << "{}";
-    }
-    else {
-        out << "{ ";
+    std::ostream& operator <<(std::ostream& out, const Vector<T>& v)
+    {
 
-        for (int i = 0; i < v.size()-1; ++i)
-            out << v[i] << ", ";
-    
-        out << v[v.size()-1] << " }";
-    }
+        if (v.is_empty()){
+            out << "{}";
+        }
+        else {
+            out << "{ ";
 
-    return out;
-}
+            for (int i = 0; i < v.size()-1; ++i)
+                out << v[i] << ", ";
+
+            out << v[v.size()-1] << " }";
+        }
+
+        return out;
+    }
 
 void debug() 
 {

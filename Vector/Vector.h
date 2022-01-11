@@ -2,6 +2,7 @@
 #define HEADER_FILE_NAME
 
 #include <cstddef>
+using std::size_t;
 
 
 template <class T> struct Vector 
