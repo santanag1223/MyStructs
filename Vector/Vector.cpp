@@ -110,7 +110,7 @@ template <class T>
     return out;
 }
 
-int main() 
+void debug() 
 {
     Vector<int> v;
     v.append(1);
@@ -139,7 +139,4 @@ int main()
     v[0] = 2;
     std::cout<< v;
 
-
-
-    return 0;
 }

@@ -6,10 +6,13 @@
 
 template <class T> struct Vector 
 {
-    
+private:
+
     size_t cap;             // capacity of Vector
     size_t cur;             // current index to be set in the Vector
     T*     arr;             // pointer to Vector in memory
+
+public:
 
     Vector();
 
